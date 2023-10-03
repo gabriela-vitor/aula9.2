@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main(){
+	int mes, resultado;
+	
+	printf("escolha um numero \n1-jan \n2-fev \n3-mar \n4-abril \n5-maio \n6-jun \n7-jul \n8-agosto \n9-set \n10-out \n11-nov \n12-dez\n");
+	scanf("%d", &mes);
+	
+	switch(mes){
+		
+	case 1: case 3: case 5: case 7: case 9: case 11:
+		
+	resultado = 31;
+	printf("a quantidade de dias do mes e %d\n", resultado);
+	break;	
+	
+	case 2:
+		
+		resultado = 29;
+		printf("a quantidade de dias do mes e %d\n", resultado);
+		break;	
+		
+	case 4: case 6: case 8: case 10: case 12:
+		
+		resultado= 30;
+		printf("a quantidade de dias do mes e %d\n", resultado);
+		break;	
+		
+		
+		
+}
+}
+	
